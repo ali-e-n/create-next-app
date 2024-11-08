@@ -6,22 +6,14 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className=""
-<<<<<<< HEAD
           src="/images/logo.png"
-=======
-          src="/images/Logos/logo.png"
->>>>>>> master
           alt="Next.js logo"
           width={180}
           height={38}
           priority
         />
 
-<<<<<<< HEAD
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-=======
-        <div className="flex gap-4 items-center flex-col sm:flex-row content-center justify-center">
->>>>>>> master
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="./shop"
