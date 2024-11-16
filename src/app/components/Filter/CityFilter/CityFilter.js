@@ -7,37 +7,46 @@ import {
   DropdownItem,
   Button,
 } from "@nextui-org/react";
+import {
+  MdArrowCircleDown,
+  MdArrowDownward,
+  MdArrowDropDown,
+} from "react-icons/md";
+// import {
+//   Popover,
+//   PopoverTrigger,
+//   PopoverContent,
+//   Button,
+// } from "@nextui-org/react";
 
-export default function CityFilter() {
-  const [selectedKeys, setSelectedKeys] = React.useState(new Set(["City"]));
-
-  const selectedValue = React.useMemo(
-    () => Array.from(selectedKeys).join(", ").replaceAll("_", " "),
-    [selectedKeys]
-  );
-
+const cityFilter = () => {
+  let cities = ["Dubai", "Abu Dhabi", "N.Emirates", "KSA"];
   return (
-    <Dropdown>
-      <DropdownTrigger>
-        <Button variant="bordered" className="capitalize">
-          {selectedKeys}
-        </Button>
-      </DropdownTrigger>
-      <DropdownMenu
-        aria-label="Multiple selection example"
-        variant="flat"
-        closeOnSelect={false}
-        disallowEmptySelection
-        selectionMode="multiple"
-        selectedKeys={selectedKeys}
-        onSelectionChange={setSelectedKeys}
-      >
-        <DropdownItem key="text">Dubai</DropdownItem>
-        <DropdownItem key="number">Abu Dhabi</DropdownItem>
-        <DropdownItem key="date">Date</DropdownItem>
-        <DropdownItem key="single_date">Single Date</DropdownItem>
-        <DropdownItem key="iteration">Iteration</DropdownItem>
-      </DropdownMenu>
-    </Dropdown>
+    <div>
+      <Dropdown>
+        <DropdownTrigger>
+          <Button variant="bordered" className="btnStructure">
+            City
+            <MdArrowDropDown className="text-4xl" />
+          </Button>
+        </DropdownTrigger>
+        <DropdownMenu aria-label="Static Actions">
+          {/* <PopoverContent> */}
+
+          {cities.map((city) => (
+            <DropdownItem key={city}>{city}</DropdownItem>
+          ))}
+
+          <DropdownItem key="copy">Copy link</DropdownItem>
+          <DropdownItem key="edit">Edit file</DropdownItem>
+          <DropdownItem key="delete" className="text-danger" color="danger">
+            Delete file
+          </DropdownItem>
+          {/* </PopoverContent> */}
+        </DropdownMenu>
+      </Dropdown>
+    </div>
   );
-}
+};
+
+export default cityFilter;

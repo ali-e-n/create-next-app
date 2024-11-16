@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Buy 1 Get 1 Free Brunch",
+    "location": "Antara The Palm Dubai",
+    "image": "/images/offersImages/antara.png"
+  },
+  {
+    "title": "15% Off on Dinner Buffet",
+    "location": "Danat Al Resort Abu Dhabi",
+    "image": "/images/offersImages/danat.png"
+  },
+  {
+    "title": "Weekend Lunch Special - 20% Off",
+    "location": "DusitD2 Oman",
+    "image": "/images/offersImages/dusitD2.png"
+  },
+  {
+    "title": "Kids Eat Free on Sundays",
+    "location": "Erth Abu Dhabi",
+    "image": "/images/offersImages/erth.png"
+  },
+  {
+    "title": "Afternoon Tea at 25% Off",
+    "location": "Faimont Bab Al Bahar",
+    "image": "/images/offersImages/FairmountBab.png"
+  },
+  {
+    "title": "Unlimited BBQ Night - 10% Off",
+    "location": "Ritz Calrton Dubai",
+    "image": "/images/offersImages/Ritz Carlton.png"
+  },
+  {
+    "title": "Friday Brunch - 2 for 1",
+    "location": "Jw Marriot Marquis Dubai",
+    "image": "/images/offersImages/JW.png"
+  },
+  {
+    "title": "Ladies Night - 20% Off",
+    "location": "Kempinski",
+    "image": "/images/offersImages/Kempinski.png"
+  },
+  {
+    "title": "Lunch Buffet - 15% Off",
+    "location": "Movenpick Jeddah",
+    "image": "/images/offersImages/Movenpick.png"
+  },
+  {
+    "title": "Seafood Special - 10% Off",
+    "location": "Sandersons Cafe",
+    "image": "/images/offersImages/Sandersons Cafe Dubai.png"
+  },
+  {
+    "title": "Family Dinner - Kids Eat Free",
+    "location": "Saya Brasserie",
+    "image": "/images/offersImages/Saya Brasserie.png"
+  },
+  {
+    "title": "Steak Night - 20% Off",
+    "location": "Tintswalo Africa",
+    "image": "/images/offersImages/Tintswalo Africa.png"
+  },
+  {
+    "title": "Weekend Breakfast Special - 30% Off",
+    "location": "Ajman",
+    "image": "https://example.com/stock-images/food13.jpg"
+  },
+  {
+    "title": "Wine & Dine - 2 for 1",
+    "location": "Doha",
+    "image": "https://example.com/stock-images/food14.jpg"
+  },
+  {
+    "title": "Dessert Fiesta - Buy 1 Get 1 Free",
+    "location": "Abu Dhabi",
+    "image": "https://example.com/stock-images/food15.jpg"
+  },
+  {
+    "title": "Sunset Dinner - 25% Off",
+    "location": "Dubai",
+    "image": "https://example.com/stock-images/food16.jpg"
+  },
+  {
+    "title": "Kids Brunch Free Every Saturday",
+    "location": "Riyadh",
+    "image": "https://example.com/stock-images/food17.jpg"
+  },
+  {
+    "title": "Pizza Night - 10% Off",
+    "location": "Jeddah",
+    "image": "https://example.com/stock-images/food18.jpg"
+  },
+  {
+    "title": "Lunch Deal - 2 for 1",
+    "location": "Manama",
+    "image": "https://example.com/stock-images/food19.jpg"
+  },
+  {
+    "title": "Buy 1 Main Course, Get Dessert Free",
+    "location": "Muscat",
+    "image": "https://example.com/stock-images/food20.jpg"
+  }
+]

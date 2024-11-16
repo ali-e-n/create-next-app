@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.btnStructure {
+  width: 14rem; /* equivalent to w-56 */
+  border: 1px solid #dddddd; /* equivalent to border border-[#DDDDDD] */
+  border-radius: 9999px; /* equivalent to rounded-full */
+  color: #4b5563; /* equivalent to text-gray-600 */
+  background-color: #ffffff; /* equivalent to bg-white */
+  padding: 0.5rem 1rem; /* equivalent to px-4 py-2 */
+  font-size: 1.125rem; /* equivalent to text-lg */
+  outline: none; /* equivalent to focus:outline-none */
+}
+
+.btnStructure:focus {
+  box-shadow: 0 0 0 1px #c39d63; /* equivalent to focus:ring-1 focus:ring-[#C39D63] */
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
