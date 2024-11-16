@@ -36,7 +36,6 @@ export function Banner() {
           alt="image 2"
           layout="fill"
           objectFit="cover"
-          className="rounded-xl"
         />
       </div>
       <div className="relative h-full w-full">
@@ -45,7 +44,6 @@ export function Banner() {
           alt="image 2"
           layout="fill"
           objectFit="cover"
-          className="rounded-xl"
         />
       </div>
       <div className="relative h-full w-full">
@@ -54,7 +52,6 @@ export function Banner() {
           alt="image 2"
           layout="fill"
           objectFit="cover"
-          className="rounded-xl"
         />
       </div>
     </Carousel>

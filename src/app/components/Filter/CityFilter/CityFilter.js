@@ -1,50 +1,13 @@
 "use client";
 import React from "react";
-import {
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
-  Button,
-} from "@nextui-org/react";
-import {
-  MdArrowCircleDown,
-  MdArrowDownward,
-  MdArrowDropDown,
-} from "react-icons/md";
-// import {
-//   Popover,
-//   PopoverTrigger,
-//   PopoverContent,
-//   Button,
-// } from "@nextui-org/react";
 
-const cityFilter = () => {
-  let cities = ["Dubai", "Abu Dhabi", "N.Emirates", "KSA"];
+const cityFilter = (props) => {
   return (
     <div>
-      <Dropdown>
-        <DropdownTrigger>
-          <Button variant="bordered" className="btnStructure">
-            City
-            <MdArrowDropDown className="text-4xl" />
-          </Button>
-        </DropdownTrigger>
-        <DropdownMenu aria-label="Static Actions">
-          {/* <PopoverContent> */}
-
-          {cities.map((city) => (
-            <DropdownItem key={city}>{city}</DropdownItem>
-          ))}
-
-          <DropdownItem key="copy">Copy link</DropdownItem>
-          <DropdownItem key="edit">Edit file</DropdownItem>
-          <DropdownItem key="delete" className="text-danger" color="danger">
-            Delete file
-          </DropdownItem>
-          {/* </PopoverContent> */}
-        </DropdownMenu>
-      </Dropdown>
+      <button className=" border border-[#C39D63] rounded-full text-[#282828] bg-white px-6 py-1 text-[18px] focus:outline-none focus:ring-0 focus:ring-[#C39D63] focus:bg-[#eeddc3]">
+        {props.title}
+        {/* <MdArrowDropDown className="text-4xl" /> */}
+      </button>
     </div>
   );
 };
